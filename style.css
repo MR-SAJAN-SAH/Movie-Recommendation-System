@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    margin-top: 60px;
+    padding: 30px;
+    background: #ffffff;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+.text-slider {
+  position: fixed;
+  top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #3498db;
+  transform: rotate(-15deg);
+  white-space: nowrap;
+  overflow: hidden;
+  width: 160px;
+  animation: slideText 3s linear infinite;
+  z-index: 1000;
+}
+
+.text-slider.right {
+  right: 10px;
+  transform: rotate(15deg);
+}
+
+.text-slider.left {
+  left: 10px;
+}
+
+@keyframes slideText {
+  0% { transform: translateX(0) rotate(-15deg); }
+  50% { transform: translateX(10px) rotate(-15deg); }
+  100% { transform: translateX(0) rotate(-15deg); }
+}
