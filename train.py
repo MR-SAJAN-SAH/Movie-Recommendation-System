@@ -106,4 +106,4 @@ new_df.to_csv('movies_cleaned.csv', index=False)
 with open('movie_recommender.pkl', 'wb') as f:
     pickle.dump(recommend, f)
 
-print("✅ Model and vectorizer saved. Use 'recommend(movie_name)' to get suggestions.")
+print("Model and vectorizer saved")
