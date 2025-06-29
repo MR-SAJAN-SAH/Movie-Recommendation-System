@@ -16,7 +16,7 @@ A modern, full-stack **Content-Based Movie Recommender System** built using **Fl
 
 ## 📸 Preview
 
-![Screenshot](static/preview.png)
+![Screenshot](ss.png)
 
 ---
 
